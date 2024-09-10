@@ -9,11 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   var button = UIButton()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .green
+        
     }
 
 
+    func configButton() {
+        
+        button.setTitle("Tap", for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = .red
+        
+    }
 }
 
