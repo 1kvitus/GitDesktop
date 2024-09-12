@@ -16,6 +16,7 @@
 		231E736D2C901FA9002DD917 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E736C2C901FA9002DD917 /* TestTests.swift */; };
 		231E73772C901FA9002DD917 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E73762C901FA9002DD917 /* TestUITests.swift */; };
 		231E73792C901FA9002DD917 /* TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E73782C901FA9002DD917 /* TestUITestsLaunchTests.swift */; };
+		231E73862C92EC69002DD917 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E73852C92EC69002DD917 /* Feature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		231E73722C901FA9002DD917 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		231E73762C901FA9002DD917 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		231E73782C901FA9002DD917 /* TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		231E73852C92EC69002DD917 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				231E735E2C901FA9002DD917 /* Assets.xcassets */,
 				231E73602C901FA9002DD917 /* LaunchScreen.storyboard */,
 				231E73632C901FA9002DD917 /* Info.plist */,
+				231E73852C92EC69002DD917 /* Feature.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231E73862C92EC69002DD917 /* Feature.swift in Sources */,
 				231E735A2C901FA8002DD917 /* ViewController.swift in Sources */,
 				231E73562C901FA8002DD917 /* AppDelegate.swift in Sources */,
 				231E73582C901FA8002DD917 /* SceneDelegate.swift in Sources */,
